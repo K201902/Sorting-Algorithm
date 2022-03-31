@@ -379,239 +379,239 @@ int main()
 	}
 	
 //	For 50 numbers
-//	start = clock();
-//	obj.insertion(arr, 50);
-//	for(int i = 0; i < 50; i++)
-//	{
-//		arr[i] = aux[i];
-//	}
-//	
-//	obj.Msort(arr, 0, 50);
-//	for(int i = 0; i < 50; i++)
-//	{
-//		arr[i] = aux[i];
-//	}
-//	
-//	obj.quicksortmiddle(arr, 0, 49);
-//	for(int i = 0; i < 50; i++)
-//	{
-//		arr[i] = aux[i];
-//	}
-//	
-//	obj.quicksortrandom(arr, 0, 49);
-//	for(int i = 0; i < 50; i++)
-//	{
-//		arr[i] = aux[i];
-//	}
-//	
-//	obj.quicksortmedian(arr, 0, 49);
-//	for(int i = 0; i < 50; i++)
-//	{
-//		arr[i] = aux[i];
-//	}
-//	obj.quicksortupdatemedian(arr, 0, 49);
-//	for(int i = 0; i < 50; i++)
-//	{
-//		arr[i] = aux[i];
-//	}
-//	end = clock();
-//	cout << endl << endl << "For 50 Numbers" << endl << endl;
-//	obj.show(arr,50);
-//	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
-//	timee[0] = end - start;
+	start = clock();
+	obj.insertion(arr, 50);
+	for(int i = 0; i < 50; i++)
+	{
+		arr[i] = aux[i];
+	}
+	
+	obj.Msort(arr, 0, 50);
+	for(int i = 0; i < 50; i++)
+	{
+		arr[i] = aux[i];
+	}
+	
+	obj.quicksortmiddle(arr, 0, 49);
+	for(int i = 0; i < 50; i++)
+	{
+		arr[i] = aux[i];
+	}
+	
+	obj.quicksortrandom(arr, 0, 49);
+	for(int i = 0; i < 50; i++)
+	{
+		arr[i] = aux[i];
+	}
+	
+	obj.quicksortmedian(arr, 0, 49);
+	for(int i = 0; i < 50; i++)
+	{
+		arr[i] = aux[i];
+	}
+	obj.quicksortupdatemedian(arr, 0, 49);
+	for(int i = 0; i < 50; i++)
+	{
+		arr[i] = aux[i];
+	}
+	end = clock();
+	cout << endl << endl << "For 50 Numbers" << endl << endl;
+	obj.show(arr,50);
+	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
+	timee[0] = end - start;
 	
 //	For 100 numbers
-//	start = clock();
-//	obj.insertion(arr100, 100);
-//	for(int i = 0; i < 100; i++)
-//	{
-//		arr100[i] = aux100[i];
-//	}
-////	
-//	obj.Msort(arr100, 0, 100);
-//	for(int i = 0; i < 100; i++)
-//	{
-//		arr100[i] = aux100[i];
-//	}
-//	
-//	obj.quicksortmiddle(arr100, 0, 99);
-//	for(int i = 0; i < 100; i++)
-//	{
-//		arr100[i] = aux100[i];
-//	}
-//	
-//	obj.quicksortrandom(arr100, 0, 99);
-//	for(int i = 0; i < 100; i++)
-//	{
-//		arr100[i] = aux100[i];
-//	}
+	start = clock();
+	obj.insertion(arr100, 100);
+	for(int i = 0; i < 100; i++)
+	{
+		arr100[i] = aux100[i];
+	}
 	
-//	obj.quicksortmedian(arr100, 0, 99);
-//	for(int i = 0; i < 100; i++)
-//	{
-//		arr100[i] = aux100[i];
-//	}
-//	obj.quicksortupdatemedian(arr100, 0, 99);
-//	end = clock();
-//	cout << endl << endl << "For 100 Numbers" << endl << endl;
-//	obj.show(arr100,100);
-//	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
-//	timee[1] = end - start;
-//
-//	//For 200 numbers
-//	start = clock();
-//	obj.insertion(arr200, 200);
-//	for(int i = 0; i < 200; i++)
-//	{
-//		arr200[i] = aux200[i];
-//	}
-//	
-//	obj.Msort(arr200, 0, 200);
-//	for(int i = 0; i < 200; i++)
-//	{
-//		arr200[i] = aux200[i];
-//	}
-//	
-//	obj.quicksortmiddle(arr200, 0, 199);
-//	for(int i = 0; i < 200; i++)
-//	{
-//		arr200[i] = aux200[i];
-//	}
-//	
-//	obj.quicksortrandom(arr200, 0, 199);
-//	for(int i = 0; i < 200; i++)
-//	{
-//		arr200[i] = aux200[i];
-//	}
+	obj.Msort(arr100, 0, 100);
+	for(int i = 0; i < 100; i++)
+	{
+		arr100[i] = aux100[i];
+	}
 	
-//	obj.quicksortmedian(arr200, 0, 199);
-//	for(int i = 0; i < 200; i++)
-//	{
-//		arr200[i] = aux200[i];
-//	}
-//	obj.quicksortupdatemedian(arr200, 0, 199);
-//	end = clock();
-//	cout << endl << endl << "For 200 Numbers" << endl << endl;
-//	obj.show(arr200,200);
-//	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
-//	timee[2] = end - start;
-//	
-//
-//	//For 300 numbers
-//	start = clock();
-//	obj.insertion(arr300, 300);
-//	for(int i = 0; i < 300; i++)
-//	{
-//		arr300[i] = aux300[i];
-//	}
-//	
-//	obj.Msort(arr300, 0, 300);
-//	for(int i = 0; i < 300; i++)
-//	{
-//		arr300[i] = aux300[i];
-//	}
-//	
-//	obj.quicksortmiddle(arr300, 0, 299);
-//	for(int i = 0; i < 300; i++)
-//	{
-//		arr300[i] = aux300[i];
-//	}
-//	
-//	obj.quicksortrandom(arr300, 0, 299);
-//	for(int i = 0; i < 300; i++)
-//	{
-//		arr300[i] = aux300[i];
-//	}
-//	
-//	obj.quicksortmedian(arr300, 0, 299);
-//	for(int i = 0; i < 300; i++)
-//	{
-//		arr300[i] = aux300[i];
-//	}
-//	obj.quicksortupdatemedian(arr300, 0, 299);
-//	end = clock();
-//	cout << endl << endl << "For 300 Numbers" << endl << endl;
-//	obj.show(arr300,300);
-//	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
-//	timee[3] = end - start;
-//	
-//	
-//	//For 400 numbers
-//	start = clock();
-//	obj.insertion(arr400, 400);
-//	for(int i = 0; i < 400; i++)
-//	{
-//		arr400[i] = aux400[i];
-//	}
-//	
-//	obj.Msort(arr400, 0, 400);
-//	for(int i = 0; i < 400; i++)
-//	{
-//		arr400[i] = aux400[i];
-//	}
-//	
-//	obj.quicksortmiddle(arr400, 0, 399);
-//	for(int i = 0; i < 400; i++)
-//	{
-//		arr400[i] = aux400[i];
-//	}
-//	
-//	obj.quicksortrandom(arr400, 0, 399);
-//	for(int i = 0; i < 400; i++)
-//	{
-//		arr400[i] = aux400[i];
-//	}
-//	
-//	obj.quicksortmedian(arr400, 0, 399);
-//	for(int i = 0; i < 400; i++)
-//	{
-//		arr400[i] = aux400[i];
-//	}
-//	obj.quicksortupdatemedian(arr400, 0, 399);
-//	end = clock();
-//	cout << endl << endl << "For 400 Numbers" << endl << endl;
-//	obj.show(arr400,400);
-//	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
-//	timee[4] = end - start;
-//	
-//	
-//	//For 500 numbers
-//	start = clock();
-//	obj.insertion(arr500, 500);
-//	for(int i = 0; i < 500; i++)
-//	{
-//		arr500[i] = aux500[i];
-//	}
-//	
-//	obj.Msort(arr500, 0, 500);
-//	for(int i = 0; i < 500; i++)
-//	{
-//		arr500[i] = aux500[i];
-//	}
-//	
-//	obj.quicksortmiddle(arr500, 0, 499);
-//	for(int i = 0; i < 500; i++)
-//	{
-//		arr500[i] = aux500[i];
-//	}
-//	
-//	obj.quicksortrandom(arr500, 0, 499);
-//	for(int i = 0; i < 500; i++)
-//	{
-//		arr500[i] = aux500[i];
-//	}
-//	
-//	obj.quicksortmedian(arr500, 0, 499);
-//		for(int i = 0; i < 500; i++)
-//	{
-//		arr500[i] = aux500[i];
-//	}
-//	obj.quicksortupdatemedian(arr500, 0, 499);
-//	end = clock();
-//	cout << endl << endl << "For 500 Numbers" << endl << endl;
-//	obj.show(arr500,500);
-//	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
-//	timee[5] = end - start;
+	obj.quicksortmiddle(arr100, 0, 99);
+	for(int i = 0; i < 100; i++)
+	{
+		arr100[i] = aux100[i];
+	}
+	
+	obj.quicksortrandom(arr100, 0, 99);
+	for(int i = 0; i < 100; i++)
+	{
+		arr100[i] = aux100[i];
+	}
+	
+	obj.quicksortmedian(arr100, 0, 99);
+	for(int i = 0; i < 100; i++)
+	{
+		arr100[i] = aux100[i];
+	}
+	obj.quicksortupdatemedian(arr100, 0, 99);
+	end = clock();
+	cout << endl << endl << "For 100 Numbers" << endl << endl;
+	obj.show(arr100,100);
+	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
+	timee[1] = end - start;
+
+	//For 200 numbers
+	start = clock();
+	obj.insertion(arr200, 200);
+	for(int i = 0; i < 200; i++)
+	{
+		arr200[i] = aux200[i];
+	}
+	
+	obj.Msort(arr200, 0, 200);
+	for(int i = 0; i < 200; i++)
+	{
+		arr200[i] = aux200[i];
+	}
+	
+	obj.quicksortmiddle(arr200, 0, 199);
+	for(int i = 0; i < 200; i++)
+	{
+		arr200[i] = aux200[i];
+	}
+	
+	obj.quicksortrandom(arr200, 0, 199);
+	for(int i = 0; i < 200; i++)
+	{
+		arr200[i] = aux200[i];
+	}
+	
+	obj.quicksortmedian(arr200, 0, 199);
+	for(int i = 0; i < 200; i++)
+	{
+		arr200[i] = aux200[i];
+	}
+	obj.quicksortupdatemedian(arr200, 0, 199);
+	end = clock();
+	cout << endl << endl << "For 200 Numbers" << endl << endl;
+	obj.show(arr200,200);
+	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
+	timee[2] = end - start;
+	
+
+	//For 300 numbers
+	start = clock();
+	obj.insertion(arr300, 300);
+	for(int i = 0; i < 300; i++)
+	{
+		arr300[i] = aux300[i];
+	}
+	
+	obj.Msort(arr300, 0, 300);
+	for(int i = 0; i < 300; i++)
+	{
+		arr300[i] = aux300[i];
+	}
+	
+	obj.quicksortmiddle(arr300, 0, 299);
+	for(int i = 0; i < 300; i++)
+	{
+		arr300[i] = aux300[i];
+	}
+	
+	obj.quicksortrandom(arr300, 0, 299);
+	for(int i = 0; i < 300; i++)
+	{
+		arr300[i] = aux300[i];
+	}
+	
+	obj.quicksortmedian(arr300, 0, 299);
+	for(int i = 0; i < 300; i++)
+	{
+		arr300[i] = aux300[i];
+	}
+	obj.quicksortupdatemedian(arr300, 0, 299);
+	end = clock();
+	cout << endl << endl << "For 300 Numbers" << endl << endl;
+	obj.show(arr300,300);
+	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
+	timee[3] = end - start;
+	
+	
+	//For 400 numbers
+	start = clock();
+	obj.insertion(arr400, 400);
+	for(int i = 0; i < 400; i++)
+	{
+		arr400[i] = aux400[i];
+	}
+	
+	obj.Msort(arr400, 0, 400);
+	for(int i = 0; i < 400; i++)
+	{
+		arr400[i] = aux400[i];
+	}
+	
+	obj.quicksortmiddle(arr400, 0, 399);
+	for(int i = 0; i < 400; i++)
+	{
+		arr400[i] = aux400[i];
+	}
+	
+	obj.quicksortrandom(arr400, 0, 399);
+	for(int i = 0; i < 400; i++)
+	{
+		arr400[i] = aux400[i];
+	}
+	
+	obj.quicksortmedian(arr400, 0, 399);
+	for(int i = 0; i < 400; i++)
+	{
+		arr400[i] = aux400[i];
+	}
+	obj.quicksortupdatemedian(arr400, 0, 399);
+	end = clock();
+	cout << endl << endl << "For 400 Numbers" << endl << endl;
+	obj.show(arr400,400);
+	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
+	timee[4] = end - start;
+	
+	
+	//For 500 numbers
+	start = clock();
+	obj.insertion(arr500, 500);
+	for(int i = 0; i < 500; i++)
+	{
+		arr500[i] = aux500[i];
+	}
+	
+	obj.Msort(arr500, 0, 500);
+	for(int i = 0; i < 500; i++)
+	{
+		arr500[i] = aux500[i];
+	}
+	
+	obj.quicksortmiddle(arr500, 0, 499);
+	for(int i = 0; i < 500; i++)
+	{
+		arr500[i] = aux500[i];
+	}
+	
+	obj.quicksortrandom(arr500, 0, 499);
+	for(int i = 0; i < 500; i++)
+	{
+		arr500[i] = aux500[i];
+	}
+	
+	obj.quicksortmedian(arr500, 0, 499);
+		for(int i = 0; i < 500; i++)
+	{
+		arr500[i] = aux500[i];
+	}
+	obj.quicksortupdatemedian(arr500, 0, 499);
+	end = clock();
+	cout << endl << endl << "For 500 Numbers" << endl << endl;
+	obj.show(arr500,500);
+	cout << endl << endl << "Time Difference: " << end-start << endl << endl;
+	timee[5] = end - start;
 	
 	//For 1000 numbers
 	start = clock();
